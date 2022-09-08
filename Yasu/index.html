@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/bootstrap 5/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <script src="/Jquery/jquery-3.6.0.min.js"></script>
+    <script src="/bootstrap 5/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+    <script src="javascript.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img class="logo" src="/IMG/Logo.PNG" width="200" height="100">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="#">Início</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Cardápio</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Contato</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Onde Estamos</a>
+                  </li>
+                  <li lass="nav-item">
+                     <a class="nav-link" href="#">Sobre Nós</a>
+                  </li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+           <div class="carousel-inner">
+               <div class="carousel-item active">
+                 <img src="/IMG Slide/Slide1.jpg" class="d-block w-100" alt="..." >
+                 <div class="carousel-caption d-none d-md-block">
+                   <h5>Restaurante moderno</h5>
+                   <p>É um complexo gastronômico que oferece um ambiente espaçoso e confortável</p>
+                 </div>
+               </div>
+               <div class="carousel-item">
+                 <img src="/IMG Slide/Slide2.jpg" class="d-block w-100" alt="...">
+                 <div class="carousel-caption d-none d-md-block">
+                   <h5>Atendimento de Qualidade</h5>
+                   <p>O Restaurante Yasu tem como missão disseminar a cultura nippônica no Brasil</p>
+                 </div>
+               </div>
+               <div class="carousel-item">
+                 <img src="/IMG Slide/Slide3.jpg" class="d-block w-100" alt="...">
+                 <div class="carousel-caption d-none d-md-block">
+                   <h5>A Melhor Seleção de Ingredientes</h5>
+                   <p>Ingredientes de qualidade para atingir o autêntico sabor da gastronomia japonesa.</p>
+                 </div>
+               </div>
+               <div class="carousel-item">
+                 <img src="/IMG Slide/Slide4.jpg" class="d-block w-100" alt="...">
+                 <div class="carousel-caption d-none d-md-block">
+                   <h5>Especialistas</h5>
+                   <p>Contamos com uma equipe multidiciplinar, que une a criatividade e os rígidos padrões da cozinha japonesa</p>
+                 </div>
+               </div>
+               <div class="carousel-item">
+                 <img src="/IMG Slide/Slide5.jpg" class="d-block w-100" alt="...">
+                 <div class="carousel-caption d-none d-md-block">
+                   <h5>Adega</h5>
+                   <p>Adega com as mais variadas marcas e categorias de sakês, shochus e whiskies</p>
+                 </div>
+               </div>
+           </div>
+           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+    </div>
+
+    <div class="container wrap">
+        <section class="mx-auto my-5" style="max-width: 23rem;">
+            
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="/IMG/misso.jpg" class="img-fluid"/>
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold"><a>Missoshiru</a></h5>
+              <ul class="list-unstyled list-inline mb-0">
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"> </i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fas fa-star-half-alt text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <p class="text-muted">(1 UN)</p>
+                </li>
+              </ul>
+              <p class="mb-2">• R$17,00</p>
+              <p class="card-text">
+                Caldo de pasta de soja com tofu e cebolinha
+              </p>
+              <hr class="my-4" />
+              <a href="#" class="btn btn-outline-danger">Adicionar ao Carrinho</a><a href="#" class="btn btn-outline-success"> Comprar</a>
+            </div>
+          </div>
+          
+        </section>
+        <section class="mx-auto my-5" style="max-width: 23rem;">
+            
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="/IMG/Guioza.jpg" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold"><a>Guioza</a></h5>
+              <ul class="list-unstyled list-inline mb-0">
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"> </i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fas fa-star-half-alt text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <p class="text-muted">(6 UN)</p>
+                </li>
+              </ul>
+              <p class="mb-2">• R$19,00</p>
+              <p class="card-text">
+                Pastelzinhos recheados de legumes e carne bovina
+              </p>
+              <hr class="my-4"/>
+              <a href="#" class="btn btn-outline-danger">Adicionar ao Carrinho</a><a href="#" class="btn btn-outline-success"> Comprar</a>
+            </div>
+          </div>
+        </section>
+        <section class="mx-auto my-5" style="max-width: 23rem;">
+            
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="/IMG/harumaki.jpg" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold"><a>Harumaki</a></h5>
+              <ul class="list-unstyled list-inline mb-0">
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"> </i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fas fa-star-half-alt text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <p class="text-muted">(2 UN))</p>
+                </li>
+              </ul>
+              <p class="mb-2"> • R$12,00</p>
+              <p class="card-text">
+                Rolinho primavera de legumes  
+              </p>
+              <hr class="my-4" />
+              <a href="#" class="btn btn-outline-danger">Adicionar ao Carrinho</a><a href="#" class="btn btn-outline-success"> Comprar</a>
+            </div>
+          </div>
+          
+        </section>
+        <section class="mx-auto my-5" style="max-width: 23rem;">
+            
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="/IMG/Ceviche de salm╞o.jpg" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold"><a>Ceviche de Salmão</a></h5>
+              <ul class="list-unstyled list-inline mb-0">
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"> </i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fas fa-star-half-alt text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <p class="text-muted">(1 UN)</p>
+                </li>
+              </ul>
+              <p class="mb-2">• R$29,00</p>
+              <p class="card-text">
+                Conserva de salmão, marinados e temperados no limão, cebola roxa e pimenta dedo de moça
+              </p>
+              <hr class="my-4" />
+              <a href="#" class="btn btn-outline-danger">Adicionar ao Carrinho</a><a href="#" class="btn btn-outline-success"> Comprar</a>
+            </div>
+          </div>
+          
+        </section>
+        <section class="mx-auto my-5" style="max-width: 23rem;">
+            
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="/IMG/Carpaccio-de-polvo-.jpeg" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold"><a>Carpaccio de polvo</a></h5>
+              <ul class="list-unstyled list-inline mb-0">
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"> </i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fas fa-star-half-alt text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <p class="text-muted">(1 UN)</p>
+                </li>
+              </ul>
+              <p class="mb-2">• R$49,00</p>
+              <p class="card-text">
+                Finas fatias de polvo, regados ao molho ponzo com hortelã
+              </p>
+              <hr class="my-4" />
+              <a href="#" class="btn btn-outline-danger">Adicionar ao Carrinho</a><a href="#" class="btn btn-outline-success"> Comprar</a>
+            </div>
+          </div>
+          
+        </section>
+        <section class="mx-auto my-5" style="max-width: 23rem;">
+            
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="/IMG/Temaki de Salmão.jpg" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold"><a>Temaki de Salmão</a></h5>
+              <ul class="list-unstyled list-inline mb-0">
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"> </i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fas fa-star-half-alt text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <p class="text-muted">(1 UN)</p>
+                </li>
+              </ul>
+              <p class="mb-2">• R$26,00</p>
+              <p class="card-text">
+                Salmão, cream cheese e cebolinha
+              </p>
+              <hr class="my-4" />
+              <a href="#" class="btn btn-outline-danger">Adicionar ao Carrinho</a><a href="#" class="btn btn-outline-success"> Comprar</a>
+            </div>
+          </div>
+          
+        </section>
+        <section class="mx-auto my-5" style="max-width: 23rem;">
+            
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="/IMG/uramaki.jpg" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold"><a>Uramaki</a></h5>
+              <ul class="list-unstyled list-inline mb-0">
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"> </i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fas fa-star-half-alt text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <p class="text-muted">(2 UN)</p>
+                </li>
+              </ul>
+              <p class="mb-2">• R$15,00</p>
+              <p class="card-text">
+                Enrolados com arroz por fora
+              </p>
+              <hr class="my-4" />
+              <a href="#" class="btn btn-outline-danger">Adicionar ao Carrinho</a><a href="#" class="btn btn-outline-success"> Comprar</a>
+            </div>
+          </div>
+          
+        </section>
+        <section class="mx-auto my-5" style="max-width: 23rem;">
+            
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="/IMG/resoluç╞o ruim mas T. ebi.jpg" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold"><a>Temaki Ebi</a></h5>
+              <ul class="list-unstyled list-inline mb-0">
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"> </i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fas fa-star-half-alt text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <p class="text-muted">(2 UN)</p>
+                </li>
+              </ul>
+              <p class="mb-2">•R$38,00 </p>
+              <p class="card-text">
+                Camarão empanado com ovas massago
+              </p>
+              <hr class="my-4" />
+              <a href="#" class="btn btn-outline-danger">Adicionar ao Carrinho</a><a href="#" class="btn btn-outline-success"> Comprar</a>
+            </div>
+          </div>
+          
+        </section>
+        <section class="mx-auto my-5" style="max-width: 23rem;">
+            
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="/IMG/batera de salmao.jpeg" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold"><a>Baterá de Salmão</a></h5>
+              <ul class="list-unstyled list-inline mb-0">
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"> </i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fas fa-star-half-alt text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <p class="text-muted">(3 UN)</p>
+                </li>
+              </ul>
+              <p class="mb-2">•R$20,00 </p>
+              <p class="card-text">
+                  Quadradinho de arroz com tarker de salmão, cebolinha, cream cheese, crispy de couve e limão siciliano.
+              </p>
+              <hr class="my-4" />
+              <a href="#" class="btn btn-outline-danger">Adicionar ao Carrinho</a><a href="#" class="btn btn-outline-success"> Comprar</a>
+            </div>
+          </div>
+          
+        </section>
+        <section class="mx-auto my-5" style="max-width: 23rem;">
+            
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="/IMG/Dorayaki.jpg" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold"><a>Dorayaki</a></h5>
+              <ul class="list-unstyled list-inline mb-0">
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"> </i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fas fa-star-half-alt text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <p class="text-muted">(1 UN)</p>
+                </li>
+              </ul>
+              <p class="mb-2">•R$18,00</p>
+              <p class="card-text">
+                panqueca de feijão vermelho
+              </p>
+              <hr class="my-4" />
+              <a href="#" class="btn btn-outline-danger">Adicionar ao Carrinho</a><a href="#" class="btn btn-outline-success"> Comprar</a>
+            </div>
+          </div>
+          
+        </section>
+        <section class="mx-auto my-5" style="max-width: 23rem;">
+            
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="/IMG/Sashimis.webp" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold"><a>Sashimis</a></h5>
+              <ul class="list-unstyled list-inline mb-0">
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"> </i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fas fa-star-half-alt text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <p class="text-muted">(8 UN)</p>
+                </li>
+              </ul>
+              <p class="mb-2">•R$30,00</p>
+              <p class="card-text">
+                Fatias de peixe cru fatiadas
+              </p>
+              <hr class="my-4" />
+              <a href="#" class="btn btn-outline-danger">Adicionar ao Carrinho</a><a href="#" class="btn btn-outline-success"> Comprar</a>
+            </div>
+          </div>
+          
+        </section>
+        <section class="mx-auto my-5" style="max-width: 23rem;">
+            
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="/IMG/Hot Holl.jpg" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold"><a>Hot Holl</a></h5>
+              <ul class="list-unstyled list-inline mb-0">
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"> </i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fas fa-star-half-alt text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <p class="text-muted">(8 UN)</p>
+                </li>
+              </ul>
+              <p class="mb-2">•R$30,00</p>
+              <p class="card-text">
+                Sushi enrolados à milanesa e frito
+              </p>
+              <hr class="my-4" />
+              <a href="#" class="btn btn-outline-danger">Adicionar ao Carrinho</a><a href="#" class="btn btn-outline-success"> Comprar</a>
+            </div>
+          </div>
+          
+        </section>
+        <section class="mx-auto my-5" style="max-width: 23rem;">
+            
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="/IMG/hossomaki.webp" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold"><a>Hossomaki</a></h5>
+              <ul class="list-unstyled list-inline mb-0">
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"> </i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fas fa-star-half-alt text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <p class="text-muted">(8 UN)</p>
+                </li>
+              </ul>
+              <p class="mb-2">•R$32,00</p>
+              <p class="card-text">
+                Enrolados de arroz com alga por fora
+              </p>
+              <hr class="my-4" />
+              <a href="#" class="btn btn-outline-danger">Adicionar ao Carrinho</a><a href="#" class="btn btn-outline-success"> Comprar</a>
+            </div>
+          </div>
+          
+        </section>
+        <section class="mx-auto my-5" style="max-width: 23rem;">
+            
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="/IMG/niguiri-de-peixe.jpg" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold"><a>Niguiri</a></h5>
+              <ul class="list-unstyled list-inline mb-0">
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"> </i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fas fa-star-half-alt text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <p class="text-muted">(2 UN)</p>
+                </li>
+              </ul>
+              <p class="mb-2">•R$15,00</p>
+              <p class="card-text">
+                Fatia fina de peixe sobre uma bolinha de gohan 
+              </p>
+              <hr class="my-4" />
+              <a href="#" class="btn btn-outline-danger">Adicionar ao Carrinho</a><a href="#" class="btn btn-outline-success"> Comprar</a>
+            </div>
+          </div>
+          
+        </section>
+        <section class="mx-auto my-5" style="max-width: 23rem;">
+            
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="/IMG/Tempura de sorvete.jpg" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold"><a>Tempurá de Sorvete</a></h5>
+              <ul class="list-unstyled list-inline mb-0">
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"> </i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item me-0">
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fas fa-star-half-alt text-warning fa-xs"></i>
+                </li>
+                <li class="list-inline-item">
+                  <p class="text-muted">(1 UN)</p>
+                </li>
+              </ul>
+              <p class="mb-2">•R$32,00</p>
+              <p class="card-text">
+               sorvete frito com calda de chocolate 
+
+              </p>
+              <hr class="my-4" />
+              <a href="#" class="btn btn-outline-danger">Adicionar ao Carrinho</a><a href="#" class="btn btn-outline-success"> Comprar</a>
+            </div>
+          </div>
+          
+        </section>
+        
+    </div>
+
+    <div class="containerContato">
+        <div class="card text-center contato">
+            <div class="card-header">
+              <h2>Contato</h2>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">HORÁRIOS DE FUNCIONAMENTOS</h3>
+              <h3 class="textDelivery"> Presencial</h3>
+              <h5> De segunda a sábado</h4>
+              <p>11h as 15h30 - 18h as 22h30</p>
+              <h5>Domingo</h3>
+              <p>11h as 15h30 - 18h as 21h30</p>
+              <h3 class="textDelivery">Delivery</h3>
+              <h5>De segunda a sábado</h4>
+              <p>11h as 15h30 - 18h as 22h30</p>
+              <h5>Domingo</h3>
+              <p>11h as 15h30 - 18h as 21h30</p>
+              <a href="#" class="btn btn-danger">Fazer Reserva</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card text-center">
+        <div class="card-header">
+         <h2>Onde Estamos</h2>
+        </div>
+        <div class="card-body">
+            <section class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.876760978914!2d-46.66731758565041!3d-23.60875236922779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a0f27e56fad%3A0x211f81fd2fdbe142!2sAv.%20Ira%C3%AD%2C%20143%20-%20Moema%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004082-000!5e0!3m2!1spt-BR!2sbr!4v1651198482005!5m2!1spt-BR!2sbr" align = middle class="mapGoogle" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </div>
+    </div>
+
+    <div class="card text-center">
+        <div class="card-header">
+         <h2>Sobre Nós</h2>
+        </div>
+        <div class="card-body">
+                <header>
+                    <header>
+                      <article>
+                        <header>
+                          <p> Em 28 de agosto de 2019, o YASU abriu suas portas, em Moema, à ideia moderna de criar um restaurante ultra tecnológico e com inovadora forma de atendimento ao cliente, sem deixar de lado a experiência gastronômica.  <p>
+                          <p>Os sócios criaram um ambiente clean, sofisticado e silencioso para servir clientes que desejam baixa ou nenhuma interação humana para realizar seu pedido
+                          <p>Todavia a equipe é especialista em cozinha japonesa, conta com uma cozinha sofisticada e preparada, e grande conhecimento da cultura oriental na elaboração do cardápio.</p>
+                          <p> O YASU, gera em seus clientes experiências extremamente satisfatórias e uma experiência gastronômica completa, para agradar os 5 sentidos de seus clientes, sendo assim, em nossos poucos anos de mercado atraímos os mais exigentes paladares e apreciadores de pratos bem montados e saudáveis. <p>
+                          <p>Nós da equipe YASU lhe recebemos de portas e braços abertos. Seja bem-vindo!</p>
+                        </header>
+                      </article>
+                    </header>
+                </header>
+        </div>
+    </div>
+    
+  </body>  
+  <footer class="bg-light text-center text-lg-start">
+    <div class="containerfooter p-4 pb-0">
+      <form action="">
+        <div class="row">
+          <div class="col-auto mb-4 mb-md-0">
+            <p class="pt-2">
+              <strong>Assine a nossa Newsletter</strong>
+            </p>
+          </div>
+          <div class="col-md-5 col-12 mb-4 mb-md-0">
+            <div class="form-outline mb-4">
+              <input type="email" id="form5Example25" class="form-control" />
+              <label class="form-label" for="form5Example25">Endereço de E-mail</label>
+            </div>
+          </div>
+          <div class="col-auto mb-4 mb-md-0">
+            <button type="submit" class="btn btn-danger mb-4">
+              Subscrever
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Todos os direitos reservados:
+      <a class="text-dark" href="#">Yasu</a>
+    </div>
+  </footer>
+</body>
+</html>
